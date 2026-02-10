@@ -1,4 +1,3 @@
-python
 from flask import Flask, render_template_string, request, send_file, jsonify
 import pandas as pd
 import requests
@@ -501,4 +500,3 @@ def api_generate():
 
 if __name__ == '__main__':
     app.run(debug=False, host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))
-
