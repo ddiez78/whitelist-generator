@@ -1,3 +1,2 @@
-```
-web: python app_whitelist_generator.py
-```
+python app_whitelist_generator.py
+
